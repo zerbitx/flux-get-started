@@ -56,7 +56,7 @@ spec:
           - --random-delay=false
           - --random-error=false
         env:
-          - name: Welcome to FlUx
+          - name: Bumpy Welcome to FlUx
             value: "#34577c"
         livenessProbe:
           httpGet:
