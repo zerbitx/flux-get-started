@@ -56,8 +56,10 @@ spec:
         - --random-delay=false
         - --random-error=false
         env:
-        - name: Bumpier Welcome to FlUx
+        - name: PODINFO_UI_COLOR
           value: "#34577c"
+        - name: PODINFO_UI_MESSAGE
+          value: Testing testing 1,2,3
         livenessProbe:
           httpGet:
             path: /healthz
